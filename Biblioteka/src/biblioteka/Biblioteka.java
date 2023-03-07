@@ -9,7 +9,7 @@ public class Biblioteka implements BibliotekaInterfejs {
 
 	private List<Knjiga> knjige =  new ArrayList<Knjiga>();
 	
-	
+	//Pravi komentar, pravi kod
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
 		if(knjiga == null)
