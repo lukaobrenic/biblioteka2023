@@ -35,7 +35,7 @@ public class Knjiga {
 
 	public void setIsbn(long isbn) {
 		if(isbn<=0)
-			throw new IllegalArgumentException("ISBN ne sme biti nula niti manji")
+			throw new IllegalArgumentException("ISBN ne sme biti nula niti manji");
 		
 		this.isbn = isbn;
 	}
