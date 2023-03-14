@@ -38,6 +38,8 @@ public class Autor {
 	public String toString() {
 		return "Autor [ime=" + ime + ", prezime=" + prezime + "]";
 	}
+	
+	
 
 	@Override
 	public int hashCode() {
